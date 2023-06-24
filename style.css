@@ -7,6 +7,7 @@
 body{
     background-color: rgba(128, 128, 128, 0.079);
 }
+
 .video-area video{
     width: 700px;
     height: auto;
@@ -87,4 +88,32 @@ span{
     line-height: 30px;
     
 }
+
+.buttons {
+    text-align: left;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: translateX(-6px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  
+  
+  
 

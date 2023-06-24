@@ -64,3 +64,27 @@ span{
     font-weight: 600;
     font-size: 20px;
 }
+.live-stream{
+    width: 100%;
+    height: 100vh;
+    background-color: #E1DEE9;
+}
+.live-image img{
+    height: 100vh;
+    width: 800px;
+}
+.live-text{
+    position: absolute;
+    right: 1%;
+    top: 248%;
+}
+.live-text h1{
+    font-weight: 800;
+
+}
+.live-text p{
+    margin-top: 15px;
+    line-height: 30px;
+    
+}
+

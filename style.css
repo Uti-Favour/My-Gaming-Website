@@ -7,6 +7,7 @@
 body{
     background-color: rgba(128, 128, 128, 0.079);
 }
+
 .video-area video{
     width: 700px;
     height: auto;
@@ -96,6 +97,7 @@ span{
 }
 /* -----------------------------------------video------------------------------------- */
 
+<<<<<<< HEAD
 
 #container5 {
     width: 100%;
@@ -147,3 +149,4 @@ button{
     color: white;
     margin-top: 20px;
 }
+

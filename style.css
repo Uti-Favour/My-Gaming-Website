@@ -7,6 +7,9 @@
 body{
     background-color: #FFFFFF;
 }
+html{
+    scroll-behavior: smooth;
+}
 nav {
     background-color: rgba(255, 255, 255, 0.5);
     color: #333;
@@ -74,13 +77,13 @@ line-height: 45px;
     height: auto;
     margin-top: 20px;
 }
-.play-on{
+#play-on{
     width: 100%;
     height: 100vh;
     margin-top: 20%;
     background-color: #EAEAF5;
 }
-.play-on img{
+#play-on img{
     position: absolute;
     right: 0;
     height: 80vh;
@@ -101,7 +104,8 @@ line-height: 45px;
 }
 .play-text button{
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
+    font-weight: 600;
 }
 
 span{
@@ -110,7 +114,7 @@ span{
     font-weight: 600;
     font-size: 23px;
 }
-.live-stream{
+#live-stream{
     width: 100%;
     height: 100vh;
     background-color: #E1DEE9;
@@ -197,7 +201,7 @@ button{
 
   
 
-.t-container{
+#t-container{
     position: absolute;
     bottom: 0;
     top: 420%;
@@ -366,7 +370,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: purple;
+	background-color: white;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;

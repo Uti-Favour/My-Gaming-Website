@@ -115,6 +115,7 @@ video {
     padding-left: 30px;
     font-size: 16px;
     text-align: center;
+    
   }
 
  
@@ -122,6 +123,9 @@ video {
   .text-area h1 {
     line-height: 35px;
   }
+ 
+  
+
 
   .text-area img {
     width: 120px;

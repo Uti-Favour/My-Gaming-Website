@@ -115,6 +115,7 @@ video {
     padding-left: 30px;
     font-size: 16px;
     text-align: center;
+    justify-content: center ;
     
   }
 
@@ -248,6 +249,11 @@ video {
       padding: 30px;
       text-align: center;
     }
+    span{
+      font-size: 20px;
+      font-style: italic;
+      color: gray;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -351,6 +357,7 @@ video {
   
     .video-container {
       height: 100vh;
+      border-radius: none;
     }
   
     .game-video h1 {
@@ -509,7 +516,7 @@ video {
   /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     #t-container {
-      top: 520%;
+      top: 535%;
       bottom: 0;
       transform: translateY(-50%);
       width: 90%;
